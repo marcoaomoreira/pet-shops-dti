@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TESTE PRÁTICO - DTI DIGITAL
 
-## Available Scripts
+## PREMISSAS
 
-In the project directory, you can run:
+- Para o Backend do projeto foi utilizado Django e essa parte consta no seguinte link:
+https://github.com/marcoaomoreira/backend-petshop
+Assumiu-se que somente esses serão os pet-shops cotados. Caso queira adicionar mais pet-shops, basta fazer um POST no backend.
 
-### `npm start`
+- Devido a problemas no deploy do backend, utilizou-se de um arquivo json (data.js) para simular a possível API. Para quando o backend estiver ok, basta descomentar algumas linhas de codigo no index da Pasta Home (linhas: 27, 33 e 70), comentar a linha 26 e colocar o url correto em API.js.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Os feriados considerados são somente os feriados nacionais e não feriados locais.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Não foi feito um tratamento em caso de inserção de formatos fora do orientado (conforme instrução Dados)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Dados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Os dados devem ser inseridos no seguinte formato: 03/08/2018 3 5, sendo o primeiro a data e os dois seguintes numeros equivalentes a caos pequenos e caos grandes, respectivamente.
+As datas devem ser inseridas no formato brasileiro.
 
-### `npm run eject`
+### Execução
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O link do live demos está aqui: https://pet-shop-dti.netlify.app/. Caso queira, é possível duplicar o repositório e fazer o deploy da aplicação.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
