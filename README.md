@@ -13,9 +13,6 @@ Assumiu-se que somente esses serão os pet-shops cotados. Caso queira adicionar 
 - Não foi feito um tratamento em caso de inserção de formatos fora do orientado (conforme instrução Dados)
 
 
-
-
-
 ### Dados
 
 Os dados devem ser inseridos no seguinte formato: 03/08/2018 3 5, sendo o primeiro a data e os dois seguintes numeros equivalentes a caos pequenos e caos grandes, respectivamente.
