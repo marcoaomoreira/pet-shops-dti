@@ -16,7 +16,7 @@ export default function Repositores(){
             history.push('/');
         }
 
-    },[]);
+    },[history]);
     return(
         <S.Container>
             <S.Title> Resultado do PetShop</S.Title>

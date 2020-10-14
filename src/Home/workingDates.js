@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { gregorian, julian } from '@pacote/computus';
+import { gregorian} from '@pacote/computus';
 
 
 const feriados = ['01/01', 
@@ -42,7 +42,7 @@ export const isHolidayBR = (date) =>
 //CHECA SE É FIM DE SEMANA
 export const isWeekendBR = (date) =>
   {const day = moment(date).isoWeekday();
-    if(day == 6 || day == 7){
+    if(day === 6 || day === 7){
         return 'fds';
     }else{
         return 'dianormal';
